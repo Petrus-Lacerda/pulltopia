@@ -1,3 +1,6 @@
+# pulltopia
+A Pokémon TCG pack-opening and collection game built with React and TypeScript. Open packs, collect cards, complete sets, and trade your pulls for in-game currency.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
