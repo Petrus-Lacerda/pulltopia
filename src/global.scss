@@ -1,0 +1,65 @@
+:root {
+    /* Backgrounds */
+    --bg-primary: #222328;
+    --bg-secondary: #292a30;
+
+    /* Surfaces */
+    --surface: #303139;
+    --surface-hover: #383a43;
+
+    /* Borders */
+    --border: #454750;
+
+    /* Text */
+    --text-primary: #f3f1ec;
+    --text-secondary: #b9b8b3;
+
+    /* Main UI accents */
+    --accent-blue: #5c8dff;
+    --accent-violet: #9a7cf8;
+    --accent-teal: #4fc3b1;
+    --accent-coral: #f27c74;
+    --accent-gold: #e0b85c;
+
+    /* Navigation tabs */
+    --nav-home: #d4a84f;
+    --nav-packs: #72a889;
+    --nav-shop: #c87572;
+    --nav-collection: #8d79b4;
+
+    // Base typography
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background: var(--bg-primary);
+    color: var(--text-primary);
+
+    .main-content {
+        padding-left: 120px;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+#root {
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
