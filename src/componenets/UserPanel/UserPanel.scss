@@ -1,0 +1,21 @@
+@use "../../assets/scss/mixins" as mixins;
+
+.UserPanel {
+    top: 60px;
+    right: 60px;
+    position: fixed;
+    @include mixins.flex($direction: row);
+    gap: 16px;
+
+    .packs-owned,
+    .user-wallet {
+        background-color: var(--bg-secondary);
+        border-radius: 8px;
+        font-weight: 700;
+        @include mixins.flex;
+        gap: 8px;
+        padding: 0 14px;
+        height: 40px;
+        height: 40px;
+    }
+}
